@@ -1,0 +1,82 @@
+/* Inside your App.css file */
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: grey;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+.autocomplete {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestion-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.artist-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.album-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.song-list {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.song-title {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.highlight {
+  background-color: yellow;
+}
